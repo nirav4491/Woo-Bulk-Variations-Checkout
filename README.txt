@@ -1,41 +1,60 @@
-=== Plugin Name ===
-Contributors: (this should be a list of wordpress.org userid's)
-Donate link: https://github.com/nirav4491/
-Tags: comments, spam
-Requires at least: 3.0.1
-Tested up to: 3.4
-Stable tag: 4.3
+=== Quick Bulk Variations Checkout for WooCommerce === 
+Contributors: niravmehta44
+Donate link: https://github.com/nirav4491
+Tags: variation, bulk, quick cart, cart, table, bulk variation, multi selection, Adding Multiple Variable Products, Add to Cart Multiple Variations,Variations to Table,Bulk Variation, add Custom Variations,Multiple Variations
+Requires at least: 5.0
+Tested up to: 5.5
+Requires PHP: 5.6
+Stable tag: 1.1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
-
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+This plugin provides customer's the ability to add multiple variants to cart at single click.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+Plugin will convert default product page variations selection-option to the user-friendly Table–Grid display. Customers would be able to see all the product variations in tabular format, thus allowing to add multiple variants to the cart in one click.
 
-A few notes about the sections above:
+WooCommerce Quick Cart for Multiple Variation Product will simplify the ordering process for whole sellers, business to business sites, or any user who would like to order multiple variations of the same product at the same time. The plugin will make it easy and convenient for the user to order everything they need too quickly.
 
-*   "Contributors" is a comma separated list of wp.org/wp-plugins.org usernames
-*   "Tags" is a comma separated list of tags that apply to the plugin
-*   "Requires at least" is the lowest version that the plugin will work on
-*   "Tested up to" is the highest version that you've *successfully used to test the plugin*. Note that it might work on
-higher versions... this is just the highest one you've verified.
-*   Stable tag should indicate the Subversion "tag" of the latest stable version, or "trunk," if you use `/trunk/` for
-stable.
+Plugin Demo: <a href="#" target="_blank"> View Demo </a>
 
-    Note that the `readme.txt` of the stable tag is the one that is considered the defining one for the plugin, so
-if the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used
-for displaying information about the plugin.  In this situation, the only thing considered from the trunk `readme.txt`
-is the stable tag pointer.  Thus, if you develop in trunk, you can update the trunk `readme.txt` to reflect changes in
-your in-development version, without having that information incorrectly disclosed about the current stable version
-that lacks those changes -- as long as the trunk's `readme.txt` points to the correct stable tag.
+== Key Features ==
 
-    If no stable tag is provided, it is assumed that trunk is stable, but you should specify "trunk" if that's where
-you put the stable version, in order to eliminate any doubt.
+1. Customers can add multiple product variations to cart in a single click.
+2. Set default number of variants on the product detail page. If product variants are more than that, then that will showcased on the next page.
+3. Set a custom label /text for adding items into the cart. Default text will be "Add To Cart".
+4. Enable / Disable out of stock product variation in product details page.
+5. Enable / Disable product variations stock visibility in product details page.
+6. We have also created a shortcode that would be an added feature to the variants. Shortcode sample usage: [vpe-woo-variable-product id="<variable_product_id>"].
+7. Allow email notifications to the customer when the product is back into stock.
+8. Allow admin to set variant thumbnail.
+
+== NOTE ==
+
+Please note that the design/compatibility of the template has been tested on the following themes:
+1. TwentySixteen
+2. TwentySeventeen
+3. TwentyNineteen
+4. Storefront
+5. Shop Isle - [considering this to be any general theme installed at the client's domain]
+6. Salient
+
+For any other theme design/compatibility related queries you can create support ticket.
+
+Our technical team will contact you within 2 working days.
+
+
+
+
+== Quick SUPPORT ==
+
+Competent support team will promptly handle all your questions and will be happy to help you with WooCommerce Quick Cart for Multiple Variations
+
+= Explore our other plugins and theme to supercharge your WordPress website: =
+<ol>
+<li> <a href ="https://wordpress.org/plugins/boat-rental-system/">Boat Rental Plugin for WordPress</a></li>
+</ol>
 
 == Installation ==
 
@@ -43,72 +62,70 @@ This section describes how to install the plugin and get it working.
 
 e.g.
 
-1. Upload `woo-bulk-variations-checkout.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+* Upload `woo-quick-cart-for-multiple-variations` to the `/wp-content/plugins/` directory
+* Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Q. Which WordPress version require for this plugin?
+Ans: It requires at least min 5.0 and above WordPress version.
 
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
+= Q. After activate the plugin still display drop-down for the variations?
+Ans: Please make sure that you have selected the product visibility check-box on each product. <a href ="https://ibb.co/HYtHwVp">Click here</a> for settings.
 
 == Screenshots ==
-
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. Admin settings for how to active/deactivate the plugin functionality.
+2. After activating the plugin how the product detail page will look like.
 
 == Changelog ==
+= 1.1.8 – 29.09.2020 =
+* Compatible with WordPress 5.5.x
+* Compatible with WooCommerce 4.5.x
 
-= 1.0 =
-* A change since the previous version.
-* Another change.
+= 1.1.7 – 12.05.2020 =
+* Compatible with WordPress 5.4.x
+* Compatible with WooCommerce 4.1.x
 
-= 0.5 =
-* List versions from most recent at top to oldest at bottom.
+= 1.1.6 – 10.12.2019 =
+* VIP minimum
+* Added new feature to allow users to contact admin for outofstock products.
+* Compatible with Freemius 
+* Minor Bug Fixing
 
-== Upgrade Notice ==
+= 1.1.5 – 19.11.2019 =
+* Compatible with WordPress 5.3.x
+* Compatible with WooCommerce 3.8.x
+* add_submenu_page was called incorrectly fixed
 
-= 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
+= 1.1.4 – 24.09.2019 =
+* Update Fancybox Version
 
-= 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
+= 1.1.3 – 23.09.2019 =
+* Fix vulnerable plugin issue
 
-== Arbitrary section ==
+= 1.1.2 – 20.09.2019 =
+* Maintenance Release
 
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
+= 1.1.1 - 19.08.2019 =
+* Two plugin name display issue has been fixed.
 
-== A brief Markdown Example ==
+= 1.1 - 02.07.2019 =
+* Added new option to be able to contact admin if the variant required which is out of stock by the customer.
+* Added new feature to allow email notifications to the customer when the product is back into stock.
+* Added new feature for admin to set variant thumbnail if required.
+* Added new feature to eliminate the parent product title from the variants name.
+* Added new textarea in admin settings to override the default CSS to made quick cart table attractive.
+* Added new feature to create an account when visitors send a request via (Notify me) for out of stock products.
+* Added new feature for each product in the cart by clicking on the link which is sent the email while products are back in stock.
+* Minor bug fixing
 
-Ordered list:
+= 1.0.2 - 28.05.2019 =
+* Compatible with WordPress Version 5.2.x and WooCommerce version 3.6.x
+* Minor bug fixing
 
-1. Some feature
-1. Another feature
-1. Something else about the plugin
+= 1.0.1 - 17.05.2019 =
+* Added Notes for the plugin template design compatibility with theme list.
+* Added FAQ
 
-Unordered list:
-
-* something
-* something else
-* third thing
-
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-`<?php code(); // goes in backticks ?>`
+= 1.0.0 - 16.05.2019 =
+* First release!
